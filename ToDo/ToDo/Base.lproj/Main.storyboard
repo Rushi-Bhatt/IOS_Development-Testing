@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ToDo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add A Tesk Below:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hY-nb-YUI">
+                                <rect key="frame" x="10" y="25" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BLC-jC-C5Z">
+                                <rect key="frame" x="10" y="113" width="394" height="383"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task List:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwR-vu-hj8">
+                                <rect key="frame" x="10" y="91" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Task description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eRQ-r2-RMW">
+                                <rect key="frame" x="10" y="51" width="255" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cTk-qm-jxR"/>
+                                    <constraint firstAttribute="width" constant="255" id="sFo-Z4-D7z"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QQ-Lo-5yS">
+                                <rect key="frame" x="275" y="50" width="129" height="30"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addTask:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bPL-Cr-meC"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vax-CH-buk">
+                                <rect key="frame" x="10" y="497" width="394" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="517520480.57905501">
+                                    <!--2017-05-26 19:41:20 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="pickerDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="ntt-dw-SZZ"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Its a _ " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJm-FW-LQU">
+                                <rect key="frame" x="30" y="714" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5QQ-Lo-5yS" firstAttribute="leading" secondItem="eRQ-r2-RMW" secondAttribute="trailing" constant="10" id="0ID-0n-PGP"/>
+                            <constraint firstItem="BLC-jC-C5Z" firstAttribute="top" secondItem="rwR-vu-hj8" secondAttribute="bottom" constant="1" id="81H-4Y-7Ss"/>
+                            <constraint firstAttribute="trailing" secondItem="5QQ-Lo-5yS" secondAttribute="trailing" constant="10" id="Kfm-xk-uat"/>
+                            <constraint firstItem="Vax-CH-buk" firstAttribute="top" secondItem="BLC-jC-C5Z" secondAttribute="bottom" constant="1" id="NDH-IP-wZD"/>
+                            <constraint firstItem="BLC-jC-C5Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="QPc-qm-pZa"/>
+                            <constraint firstItem="5hY-nb-YUI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="RLc-NC-DKP"/>
+                            <constraint firstAttribute="trailing" secondItem="Vax-CH-buk" secondAttribute="trailing" constant="10" id="SWB-vv-75c"/>
+                            <constraint firstItem="eRQ-r2-RMW" firstAttribute="top" secondItem="5hY-nb-YUI" secondAttribute="bottom" constant="5" id="VKG-aM-MIe"/>
+                            <constraint firstItem="rwR-vu-hj8" firstAttribute="top" secondItem="eRQ-r2-RMW" secondAttribute="bottom" constant="10" id="WbM-1B-J1w"/>
+                            <constraint firstItem="5hY-nb-YUI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="XRj-xk-Ffg"/>
+                            <constraint firstAttribute="trailing" secondItem="BLC-jC-C5Z" secondAttribute="trailing" constant="10" id="ZgA-ey-m5T"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yJm-FW-LQU" secondAttribute="bottom" constant="1" id="cfo-e5-BDU"/>
+                            <constraint firstItem="rwR-vu-hj8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="iSC-6H-BhN"/>
+                            <constraint firstItem="Vax-CH-buk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="ime-ds-sA4"/>
+                            <constraint firstItem="eRQ-r2-RMW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="jSp-Cl-nNR"/>
+                            <constraint firstItem="yJm-FW-LQU" firstAttribute="top" secondItem="Vax-CH-buk" secondAttribute="bottom" constant="1" id="man-lj-KTE"/>
+                            <constraint firstAttribute="trailing" secondItem="yJm-FW-LQU" secondAttribute="trailing" constant="10" id="ppd-pm-MMm"/>
+                            <constraint firstItem="yJm-FW-LQU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="sWe-o1-NiU"/>
+                            <constraint firstItem="5QQ-Lo-5yS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="yeC-7o-hdi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dayLabel" destination="yJm-FW-LQU" id="3pX-rA-tnF"/>
+                        <outlet property="picker" destination="Vax-CH-buk" id="b0u-mz-aX4"/>
+                        <outlet property="txtInput" destination="eRQ-r2-RMW" id="Bqb-0W-SSg"/>
+                        <outlet property="txtOutput" destination="BLC-jC-C5Z" id="Rfq-oD-cbd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-449" y="-68"/>
+        </scene>
+    </scenes>
+</document>
