@@ -26,7 +26,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return items.count                //return 1
+        return items.count                //return 1 //number of columns
     }
     
     //delegation methods - picker view
