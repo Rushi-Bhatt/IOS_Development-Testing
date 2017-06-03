@@ -8,8 +8,6 @@
 
 import Intents
 
-
-
 class IntentHandler: INExtension, INRequestRideIntentHandling {
     
     override func handler(for intent: INIntent) -> Any {
@@ -38,6 +36,7 @@ class IntentHandler: INExtension, INRequestRideIntentHandling {
         let response = INRequestRideIntentResponse(code: .success, userActivity: activity)
         response.rideStatus = status
         completion(response)
+        
     }
     
     func resolvePartySize(forRequestRide intent: INRequestRideIntent, with completion: @escaping (INIntegerResolutionResult) -> Void) {

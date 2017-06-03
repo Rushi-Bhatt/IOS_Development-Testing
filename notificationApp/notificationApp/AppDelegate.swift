@@ -1,33 +1,35 @@
 //
 //  AppDelegate.swift
-//  siriAppCalling
+//  notificationApp
 //
-//  Created by Bhatt, Rushi on 5/30/17.
+//  Created by Bhatt, Rushi on 6/2/17.
 //  Copyright © 2017 rushi. All rights reserved.
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func setCategory(){
+        let textInputAction = UNTextInputNotificationAction(identifier: "text.input.action", title: "Comments", options: [])
+        let nextStepAction = UNNotificationAction(identifier: "next.step.action", title: "Next" , options: [])
+        let stopAction = UNNotificationAction(identifier: "stop.action", title: "Stop" , options: [])
+        let snoozeAction = UNNotificationAction(identifier: "snooze.action", title: "Snooze" , options: [])
+        let makeCategory = UNNotificationCategory(identifier: "make.steps.category", actions: [nextStepAction,stopAction,textInputAction], intentIdentifiers: [], options: [])
+        let snoozeCategory = UNNotificationCategory(identifier: "snooze.category", actions: [snoozeAction], intentIdentifiers: [], options: [])
+        UNUserNotificationCenter.current().setNotificationCategories([makeCategory,snoozeCategory])
+        
+    }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setCategory()
         return true
     }
 
-    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
-        self.userActivity = userActivity
-        //here handle the case when the user activity is received
-        if let vc:ViewController = window?.rootViewController as? ViewController {
-            vc.userActivity = userActivity
-            vc.showContact()
-        }
-        return true
-    }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="notificationApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RrE-fK-fal">
+                                <rect key="frame" x="10" y="40" width="355" height="607"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rushi's Pizza Place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0D8-qN-UXb">
+                                        <rect key="frame" x="104.5" y="0.0" width="146" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7Z-3U-33a">
+                                        <rect key="frame" x="119" y="88.5" width="117" height="30"/>
+                                        <state key="normal" title="Schedule a Pizza"/>
+                                        <connections>
+                                            <action selector="schedulePizza:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CJA-Ku-C1Y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rb-p2-fDe">
+                                        <rect key="frame" x="132.5" y="186" width="90" height="30"/>
+                                        <state key="normal" title="Make a Pizza"/>
+                                        <connections>
+                                            <action selector="makePizza:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FSA-WM-rjv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMj-jr-N0X">
+                                        <rect key="frame" x="123.5" y="284" width="108" height="30"/>
+                                        <state key="normal" title="Next Pizza Step"/>
+                                        <connections>
+                                            <action selector="nextStepPizza:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cEz-RS-DWg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEQ-V5-cOE">
+                                        <rect key="frame" x="89.5" y="381.5" width="176" height="30"/>
+                                        <state key="normal" title="View Pending Notification"/>
+                                        <connections>
+                                            <action selector="viewPendingNotifications:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4CT-UP-Q5W"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQU-8o-W6h">
+                                        <rect key="frame" x="85" y="479.5" width="185" height="30"/>
+                                        <state key="normal" title="View Delivered Notification"/>
+                                        <connections>
+                                            <action selector="viewDeliveredNotifications:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xx1-aE-oQ6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsL-lk-eKB">
+                                        <rect key="frame" x="108.5" y="577" width="138" height="30"/>
+                                        <state key="normal" title="Remove Notification"/>
+                                        <connections>
+                                            <action selector="removeNotifications:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OYq-Dn-8IF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RrE-fK-fal" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="B7t-7s-Mnp"/>
+                            <constraint firstItem="RrE-fK-fal" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EwD-Vg-c8b"/>
+                            <constraint firstAttribute="bottom" secondItem="RrE-fK-fal" secondAttribute="bottom" constant="20" symbolic="YES" id="Frf-Y9-Tdq"/>
+                            <constraint firstItem="RrE-fK-fal" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="ezQ-6i-OW0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

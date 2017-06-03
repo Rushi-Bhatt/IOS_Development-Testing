@@ -69,6 +69,7 @@
 		F64FD97F1EDF199A0037BBA3 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		F64FD9821EDF199A0037BBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		F64FD9841EDF199A0037BBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64FDAA71EE095250037BBA3 /* AppIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppIntent.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 		F64FD9721EDF199A0037BBA3 /* AppIntent */ = {
 			isa = PBXGroup;
 			children = (
+				F64FDAA71EE095250037BBA3 /* AppIntent.entitlements */,
 				F64FD9731EDF199A0037BBA3 /* IntentHandler.swift */,
 				F64FD9751EDF199A0037BBA3 /* Info.plist */,
 			);
@@ -240,6 +242,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 6HY2D43HNF;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					F64FD9791EDF199A0037BBA3 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -519,6 +526,7 @@
 		F64FD98F1EDF199A0037BBA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppIntent/AppIntent.entitlements;
 				DEVELOPMENT_TEAM = 6HY2D43HNF;
 				INFOPLIST_FILE = AppIntent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -532,6 +540,7 @@
 		F64FD9901EDF199A0037BBA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AppIntent/AppIntent.entitlements;
 				DEVELOPMENT_TEAM = 6HY2D43HNF;
 				INFOPLIST_FILE = AppIntent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -561,6 +570,7 @@
 				F64FD96B1EDF196F0037BBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F64FD98B1EDF199A0037BBA3 /* Build configuration list for PBXNativeTarget "AppIntentUI" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +579,7 @@
 				F64FD98D1EDF199A0037BBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F64FD98E1EDF199A0037BBA3 /* Build configuration list for PBXNativeTarget "AppIntent" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +588,7 @@
 				F64FD9901EDF199A0037BBA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

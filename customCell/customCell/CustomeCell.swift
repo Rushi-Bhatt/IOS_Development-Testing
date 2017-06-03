@@ -10,9 +10,10 @@ import UIKit
 
 class CustomeCell: UITableViewCell {
 
-    @IBOutlet weak var label: UILabel!
-    
-    @IBOutlet weak var `switch`: UISwitch!
+   
+    @IBOutlet weak var dobLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var imgView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
