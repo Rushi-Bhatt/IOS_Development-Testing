@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "e8d721d62423e85af817f3dbe925f0ab"
+build_time: [550774503, 612017000]
+inputs:
+  "/Users/rubhatt/Documents/Bluepillar/Bluepillar/ViewController.swift": [550689751, 0]
+  "/Users/rubhatt/Documents/Bluepillar/Bluepillar/AppDelegate.swift": [550689751, 0]

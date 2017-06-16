@@ -1,0 +1,41 @@
+--------------
+Run Statistics
+--------------
+Start Time:           2017-06-15 17:21:58 +0000
+End Time:             2017-06-15 17:23:18 +0000
+Total execution time: 79.837143 seconds
+
+Times Taken
+-----------
+[Attempt 1] Create Simulator:                                19.297131 seconds
+[Attempt 1] Install Application:                             35.925793 seconds
+[Attempt 1] Launch Application:                              0.000000 seconds
+[Attempt 1] Run Tests:                                       49.879737 seconds
+All Tests:                                                   22.405135 seconds
+[Attempt 1] {[All tests]}:                                   22.405046 seconds
+[Attempt 1] {[BullsEyeUITests.xctest]}:                      22.401027 seconds
+[Attempt 1] {[BullsEyeUITests]}:                             7.285611 seconds
+[Attempt 1] [BullsEyeUITests/testGameStyleSwitch]:           7.281146 seconds
+[Attempt 1] {[BullsEyeUITests2]}:                            7.631058 seconds
+[Attempt 1] [BullsEyeUITests2/testGameSlider]:               7.626528 seconds
+[Attempt 1] {[BullsEyeUITests3]}:                            7.476455 seconds
+[Attempt 1] [BullsEyeUITests3/testGameTypeBox]:              7.472052 seconds
+[Attempt 1] Delete Simulator:                                12.361081 seconds
+
+Summary
+-------
+Total Tests Executed:           3
+Failed Tests (includes errors): 3
+Error Tests:                    3
+Timeout due to test run-time:   0
+Timeout due to no output:       0
+Retries:                        0
+Application Crashes:            0
+Simulator Crashes:              0
+Simulator Creation Failures:    0
+Simulator Deletion Failures:    0
+App Install Failures:           0
+App Launch Failures:            0
+
+Exit Code: 1
+

@@ -1,0 +1,19 @@
+lane :test do
+   sh("rm -rf ../bluepill")
+   sh("rm -rf ../bluepill_output")
+  scan(
+    scheme: 'Bluepillar',
+    build_for_testing: true,
+    derived_data_path: './bluepill',
+    buildlog_path: './bluepill/logs/'
+  )
+  bluepillar(
+    app: 'bluepill/Build/Products/Debug-iphonesimulator/Bluepillar.app',
+    runner_app_path: 'bluepill/Build/Products/Debug-iphonesimulator/BluepillarUITests-Runner.app',
+    scheme_path: 'Bluepillar.xcodeproj/xcuserdata/rubhatt.xcuserdatad/xcschemes/Bluepillar.xcscheme',
+    output_dir: 'bluepill_output/',
+    num_sims: '2',
+    runtime: '"iOS 10.3”’,
+    device: 'iPhone 5s’
+  )
+end

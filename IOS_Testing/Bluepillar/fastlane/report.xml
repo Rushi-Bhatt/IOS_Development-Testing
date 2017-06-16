@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: rm -rf ../bluepill" time="0.069281">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: rm -rf ../bluepill_output" time="0.006177">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: scan" time="10.504297">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: bluepillar" time="71.341168">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

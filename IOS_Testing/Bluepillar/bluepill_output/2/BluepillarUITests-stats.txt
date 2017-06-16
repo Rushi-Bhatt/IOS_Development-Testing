@@ -1,0 +1,41 @@
+--------------
+Run Statistics
+--------------
+Start Time:           2017-06-14 16:55:10 +0000
+End Time:             2017-06-14 16:56:20 +0000
+Total execution time: 69.177409 seconds
+
+Times Taken
+-----------
+[Attempt 1] Create Simulator:                                0.723096 seconds
+[Attempt 1] Install Application:                             18.290332 seconds
+[Attempt 1] Launch Application:                              0.000000 seconds
+[Attempt 1] Run Tests:                                       37.587907 seconds
+All Tests:                                                   20.385178 seconds
+[Attempt 1] {[Selected tests]}:                              20.385120 seconds
+[Attempt 1] {[BluepillarUITests.xctest]}:                    20.380691 seconds
+[Attempt 1] {[SixBluepillarUITests]}:                        6.655558 seconds
+[Attempt 1] [SixBluepillarUITests/testExample]:              6.650960 seconds
+[Attempt 1] {[ThreeBluepillarUITests]}:                      6.847926 seconds
+[Attempt 1] [ThreeBluepillarUITests/testExample]:            6.843808 seconds
+[Attempt 1] {[TwoBluepillarUITests]}:                        6.869064 seconds
+[Attempt 1] [TwoBluepillarUITests/testExample]:              6.864819 seconds
+[Attempt 1] Delete Simulator:                                12.362804 seconds
+
+Summary
+-------
+Total Tests Executed:           3
+Failed Tests (includes errors): 0
+Error Tests:                    0
+Timeout due to test run-time:   0
+Timeout due to no output:       0
+Retries:                        0
+Application Crashes:            0
+Simulator Crashes:              0
+Simulator Creation Failures:    0
+Simulator Deletion Failures:    0
+App Install Failures:           0
+App Launch Failures:            0
+
+Exit Code: 0
+

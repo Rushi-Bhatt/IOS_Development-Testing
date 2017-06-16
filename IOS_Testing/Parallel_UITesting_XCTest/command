@@ -1,0 +1,1 @@
+xcodebuild clean -workspace project.xcworkspace -scheme BullsEye -sdk iphonesimulator -destination 'platform=iOS Simulator,id=D91426A7-108D-4BF2-B545-469257B62D43' test & xcodebuild clean -workspace project.xcworkspace -scheme BullsEye2 -sdk iphonesimulator -destination 'platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E' test

@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "714d18b3da32aea437bc0138dee56cf5"
+build_time: [550774508, 187166000]
+inputs:
+  "/Users/rubhatt/Documents/Bluepillar/BluepillarUITests/FourBluepillarUITests.swift": [550690014, 0]
+  "/Users/rubhatt/Documents/Bluepillar/BluepillarUITests/OneBluepillarUITests.swift": [550689787, 0]
+  "/Users/rubhatt/Documents/Bluepillar/BluepillarUITests/TwoBluepillarUITests.swift": [550689994, 0]
+  "/Users/rubhatt/Documents/Bluepillar/BluepillarUITests/SixBluepillarUITests.swift": [550690008, 0]
+  "/Users/rubhatt/Documents/Bluepillar/BluepillarUITests/FiveBluepillarUITests.swift": [550690019, 0]
+  "/Users/rubhatt/Documents/Bluepillar/BluepillarUITests/ThreeBluepillarUITests.swift": [550690000, 0]

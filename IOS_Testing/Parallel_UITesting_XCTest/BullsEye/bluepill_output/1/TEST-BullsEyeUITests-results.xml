@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All tests" tests="3" failures="3" errors="3" time="22.400000">
+  <testsuite tests="3" failures="3" errors="3" time="22.398000" timestamp="2017-06-15T10:22:43GMT-07:00" name="BullsEyeUITests.xctest">
+    <testsuite tests="1" failures="1" errors="1" time="7.287000" timestamp="2017-06-15T10:22:43GMT-07:00" name="BullsEyeUITests">
+      <testcase classname="BullsEyeUITests" name="testGameStyleSwitch" time="7.286000">
+        <failure type="Failure" message="Failed to scroll to visible (by AX action) Button 0x608000366cc0: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003">
+&lt;unknown&gt;:0
+        </failure>
+        <error type="Error"/>
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-15 10:22:43.338
+    t =     0.00s     Set Up
+    t =     0.01s         Launch com.razeware.BullsEye
+    t =     5.02s             Wait for app to idle
+    t =     6.28s     Find the &quot;Slide&quot; Button
+    t =     6.28s         Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     6.34s         Find: Descendants matching type SegmentedControl
+    t =     6.34s         Find: Descendants matching type Button
+    t =     6.34s         Find: Elements matching predicate &#x27;&quot;Slide&quot; IN identifiers&#x27;
+    t =     6.34s     Use cached accessibility hierarchy for com.razeware.BullsEye
+    t =     6.34s     Find: Descendants matching type StaticText
+    t =     6.35s     Find: Elements matching predicate &#x27;&quot;Get as close as you can to: &quot; IN identifiers&#x27;
+    t =     6.35s     Use cached accessibility hierarchy for com.razeware.BullsEye
+    t =     6.35s     Find: Descendants matching type StaticText
+    t =     6.35s     Find: Elements matching predicate &#x27;&quot;Guess where the slider is: &quot; IN identifiers&#x27;
+    t =     6.35s     Tap &quot;Type&quot; Button
+    t =     6.35s         Wait for app to idle
+    t =     6.49s         Find the &quot;Type&quot; Button
+    t =     6.49s             Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     6.52s             Find: Descendants matching type SegmentedControl
+    t =     6.52s             Find: Descendants matching type Button
+    t =     6.52s             Find: Elements matching predicate &#x27;&quot;Type&quot; IN identifiers&#x27;
+    t =     6.63s             Wait for app to idle
+    t =     6.76s         Synthesize event
+    t =     6.82s             Scroll element to visible
+    t =     6.92s             Find the &quot;Type&quot; Button
+    t =     6.92s                 Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     6.99s                     Assertion Failure: &lt;unknown&gt;:0: Failed to scroll to visible (by AX action) Button 0x608000366cc0: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003
+&lt;unknown&gt;:0: error: -[BullsEyeUITests.BullsEyeUITests testGameStyleSwitch] : Failed to scroll to visible (by AX action) Button 0x608000366cc0: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003
+XCTestOutputBarrier    t =     6.99s     Find: Descendants matching type SegmentedControl
+    t =     6.99s     Find: Descendants matching type Button
+    t =     6.99s     Find: Elements matching predicate &#x27;&quot;Type&quot; IN identifiers&#x27;
+    t =     7.01s     Assertion Failure: BullsEyeUITests.swift:46: Unable to find hit point for Button 0x600000375240: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;
+    t =     7.01s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+    <testsuite tests="1" failures="1" errors="1" time="7.631000" timestamp="2017-06-15T10:22:50GMT-07:00" name="BullsEyeUITests2">
+      <testcase classname="BullsEyeUITests2" name="testGameSlider" time="7.629000">
+        <failure type="Failure" message="Failed to scroll to visible (by AX action) Button 0x608000367680: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003">
+&lt;unknown&gt;:0
+        </failure>
+        <error type="Error"/>
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-15 10:22:50.625
+    t =     0.00s     Set Up
+    t =     0.10s         Launch com.razeware.BullsEye
+    t =     0.23s             Terminate com.razeware.BullsEye:53666
+    t =     5.48s             Wait for app to idle
+    t =     6.78s     Find the &quot;Slide&quot; Button
+    t =     6.78s         Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     6.84s         Find: Descendants matching type SegmentedControl
+    t =     6.84s         Find: Descendants matching type Button
+    t =     6.84s         Find: Elements matching predicate &#x27;&quot;Slide&quot; IN identifiers&#x27;
+    t =     6.84s     Use cached accessibility hierarchy for com.razeware.BullsEye
+    t =     6.84s     Find: Descendants matching type StaticText
+    t =     6.84s     Find: Elements matching predicate &#x27;&quot;Get as close as you can to: &quot; IN identifiers&#x27;
+    t =     6.84s     Use cached accessibility hierarchy for com.razeware.BullsEye
+    t =     6.84s     Find: Descendants matching type StaticText
+    t =     6.84s     Find: Elements matching predicate &#x27;&quot;Guess where the slider is: &quot; IN identifiers&#x27;
+    t =     6.84s     Tap &quot;Type&quot; Button
+    t =     6.84s         Wait for app to idle
+    t =     6.97s         Find the &quot;Type&quot; Button
+    t =     6.97s             Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     7.01s             Find: Descendants matching type SegmentedControl
+    t =     7.01s             Find: Descendants matching type Button
+    t =     7.01s             Find: Elements matching predicate &#x27;&quot;Type&quot; IN identifiers&#x27;
+    t =     7.12s             Wait for app to idle
+    t =     7.25s         Synthesize event
+    t =     7.30s             Scroll element to visible
+    t =     7.31s             Assertion Failure: &lt;unknown&gt;:0: Failed to scroll to visible (by AX action) Button 0x608000367680: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003
+&lt;unknown&gt;:0: error: -[BullsEyeUITests.BullsEyeUITests2 testGameSlider] : Failed to scroll to visible (by AX action) Button 0x608000367680: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003
+XCTestOutputBarrier    t =     7.31s     Find the &quot;Type&quot; Button
+    t =     7.31s         Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     7.34s         Find: Descendants matching type SegmentedControl
+    t =     7.34s         Find: Descendants matching type Button
+    t =     7.34s         Find: Elements matching predicate &#x27;&quot;Type&quot; IN identifiers&#x27;
+    t =     7.35s     Assertion Failure: BullsEyeUITests2.swift:50: Unable to find hit point for Button 0x6000003780c0: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;
+    t =     7.35s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+    <testsuite tests="1" failures="1" errors="1" time="7.477000" timestamp="2017-06-15T10:22:58GMT-07:00" name="BullsEyeUITests3">
+      <testcase classname="BullsEyeUITests3" name="testGameTypeBox" time="7.475000">
+        <failure type="Failure" message="Failed to scroll to visible (by AX action) Button 0x60000037a580: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003">
+&lt;unknown&gt;:0
+        </failure>
+        <error type="Error"/>
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-15 10:22:58.258
+    t =     0.00s     Set Up
+    t =     0.10s         Launch com.razeware.BullsEye
+    t =     0.23s             Terminate com.razeware.BullsEye:53671
+    t =     5.42s             Wait for app to idle
+    t =     6.63s     Find the &quot;Slide&quot; Button
+    t =     6.63s         Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     6.68s         Find: Descendants matching type SegmentedControl
+    t =     6.68s         Find: Descendants matching type Button
+    t =     6.68s         Find: Elements matching predicate &#x27;&quot;Slide&quot; IN identifiers&#x27;
+    t =     6.68s     Use cached accessibility hierarchy for com.razeware.BullsEye
+    t =     6.68s     Find: Descendants matching type StaticText
+    t =     6.68s     Find: Elements matching predicate &#x27;&quot;Get as close as you can to: &quot; IN identifiers&#x27;
+    t =     6.69s     Use cached accessibility hierarchy for com.razeware.BullsEye
+    t =     6.69s     Find: Descendants matching type StaticText
+    t =     6.69s     Find: Elements matching predicate &#x27;&quot;Guess where the slider is: &quot; IN identifiers&#x27;
+    t =     6.69s     Tap &quot;Type&quot; Button
+    t =     6.69s         Wait for app to idle
+    t =     6.82s         Find the &quot;Type&quot; Button
+    t =     6.82s             Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     6.85s             Find: Descendants matching type SegmentedControl
+    t =     6.85s             Find: Descendants matching type Button
+    t =     6.85s             Find: Elements matching predicate &#x27;&quot;Type&quot; IN identifiers&#x27;
+    t =     6.96s             Wait for app to idle
+    t =     7.11s         Synthesize event
+    t =     7.15s             Scroll element to visible
+    t =     7.16s             Assertion Failure: &lt;unknown&gt;:0: Failed to scroll to visible (by AX action) Button 0x60000037a580: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003
+&lt;unknown&gt;:0: error: -[BullsEyeUITests.BullsEyeUITests3 testGameTypeBox] : Failed to scroll to visible (by AX action) Button 0x60000037a580: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;, error: Error -25204 performing AXAction 2003
+XCTestOutputBarrier    t =     7.16s     Find the &quot;Type&quot; Button
+    t =     7.16s         Snapshot accessibility hierarchy for com.razeware.BullsEye
+    t =     7.19s         Find: Descendants matching type SegmentedControl
+    t =     7.19s         Find: Descendants matching type Button
+    t =     7.19s         Find: Elements matching predicate &#x27;&quot;Type&quot; IN identifiers&#x27;
+    t =     7.20s     Assertion Failure: BullsEyeUITests3.swift:52: Unable to find hit point for Button 0x60000037b9c0: traits: 8589934593, {{260.0, 520.0}, {44.0, 29.0}}, label: &#x27;Type&#x27;
+    t =     7.20s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
+

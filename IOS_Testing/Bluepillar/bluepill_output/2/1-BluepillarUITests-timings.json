@@ -1,0 +1,4 @@
+{"date" : "2017-06-14T09:56:07GMT-07:00",
+"results" : [{"testCaseFullName" : "SixBluepillarUITests/testExample", "time" : 6.654000},
+{"testCaseFullName" : "ThreeBluepillarUITests/testExample", "time" : 6.847000},
+{"testCaseFullName" : "TwoBluepillarUITests/testExample", "time" : 6.868000}]}

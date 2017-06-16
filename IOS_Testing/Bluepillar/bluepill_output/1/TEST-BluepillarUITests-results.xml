@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selected tests" tests="3" failures="0" errors="0" time="20.228000">
+  <testsuite tests="3" failures="0" errors="0" time="20.226000" timestamp="2017-06-14T09:55:45GMT-07:00" name="BluepillarUITests.xctest">
+    <testsuite tests="1" failures="0" errors="0" time="6.543000" timestamp="2017-06-14T09:55:45GMT-07:00" name="FiveBluepillarUITests">
+      <testcase classname="FiveBluepillarUITests" name="testExample" time="6.542000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-14 09:55:45.210
+    t =     0.00s     Set Up
+    t =     0.01s         Launch com.rushi.Bluepillar
+    t =     5.11s             Wait for app to idle
+    t =     6.34s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+    <testsuite tests="1" failures="0" errors="0" time="6.804000" timestamp="2017-06-14T09:55:51GMT-07:00" name="FourBluepillarUITests">
+      <testcase classname="FourBluepillarUITests" name="testExample" time="6.803000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-14 09:55:51.754
+    t =     0.00s     Set Up
+    t =     0.10s         Launch com.rushi.Bluepillar
+    t =     0.24s             Terminate com.rushi.Bluepillar:15817
+    t =     5.44s             Wait for app to idle
+    t =     6.60s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+    <testsuite tests="1" failures="0" errors="0" time="6.875000" timestamp="2017-06-14T09:55:58GMT-07:00" name="OneBluepillarUITests">
+      <testcase classname="OneBluepillarUITests" name="testExample" time="6.875000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-14 09:55:58.559
+    t =     0.00s     Set Up
+    t =     0.10s         Launch com.rushi.Bluepillar
+    t =     0.23s             Terminate com.rushi.Bluepillar:15820
+    t =     5.44s             Wait for app to idle
+    t =     6.67s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
+

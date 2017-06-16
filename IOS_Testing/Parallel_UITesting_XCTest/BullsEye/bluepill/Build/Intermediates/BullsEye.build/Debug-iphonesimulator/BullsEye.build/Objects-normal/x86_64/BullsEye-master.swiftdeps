@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "8cf5db980addb37d35e344cb2efe13e1"
+build_time: [550862509, 206620000]
+inputs:
+  "/Users/rubhatt/Documents/BullsEye/BullsEye/ViewController.swift": [534922236, 0]
+  "/Users/rubhatt/Documents/BullsEye/BullsEye/AppDelegate.swift": [534922582, 0]
+  "/Users/rubhatt/Documents/BullsEye/BullsEye/BullsEyeGame.swift": [534937957, 0]

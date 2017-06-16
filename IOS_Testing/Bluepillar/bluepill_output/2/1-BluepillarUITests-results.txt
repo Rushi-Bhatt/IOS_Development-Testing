@@ -1,0 +1,112 @@
+
+Test: Selected tests
+Start: 2017-06-14 16:55:47 +0000
+End: 2017-06-14 16:56:07 +0000
+Ended: YES
+Passed: YES
+Total: 3
+Fail: 0
+Unexpected: 0
+Time: 20.377000
+Log:
+XCTestOutputBarrierXCTestOutputBarrier
+
+
+Test: BluepillarUITests.xctest
+Start: 2017-06-14 16:55:47 +0000
+End: 2017-06-14 16:56:07 +0000
+Ended: YES
+Passed: YES
+Total: 3
+Fail: 0
+Unexpected: 0
+Time: 20.375000
+Log:
+(null)
+
+Test: SixBluepillarUITests
+Start: 2017-06-14 16:55:47 +0000
+End: 2017-06-14 16:55:54 +0000
+Ended: YES
+Passed: YES
+Total: 1
+Fail: 0
+Unexpected: 0
+Time: 6.655000
+Log:
+(null)
+
+TestClass: SixBluepillarUITests
+testName: testExample
+Time: 6.654000
+Ended: YES
+Passed: YES
+Filename: (null)
+Line number: 0
+Error Message: (null)
+Log:
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-14 09:55:47.396
+    t =     0.00s     Set Up
+    t =     0.01s         Launch com.rushi.Bluepillar
+    t =     5.03s             Wait for app to idle
+    t =     6.45s     Tear Down
+
+
+Test: ThreeBluepillarUITests
+Start: 2017-06-14 16:55:54 +0000
+End: 2017-06-14 16:56:00 +0000
+Ended: YES
+Passed: YES
+Total: 1
+Fail: 0
+Unexpected: 0
+Time: 6.848000
+Log:
+(null)
+
+TestClass: ThreeBluepillarUITests
+testName: testExample
+Time: 6.847000
+Ended: YES
+Passed: YES
+Filename: (null)
+Line number: 0
+Error Message: (null)
+Log:
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-14 09:55:54.053
+    t =     0.00s     Set Up
+    t =     0.10s         Launch com.rushi.Bluepillar
+    t =     0.23s             Terminate com.rushi.Bluepillar:15818
+    t =     5.46s             Wait for app to idle
+    t =     6.64s     Tear Down
+
+
+Test: TwoBluepillarUITests
+Start: 2017-06-14 16:56:00 +0000
+End: 2017-06-14 16:56:07 +0000
+Ended: YES
+Passed: YES
+Total: 1
+Fail: 0
+Unexpected: 0
+Time: 6.869000
+Log:
+(null)
+
+TestClass: TwoBluepillarUITests
+testName: testExample
+Time: 6.868000
+Ended: YES
+Passed: YES
+Filename: (null)
+Line number: 0
+Error Message: (null)
+Log:
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-06-14 09:56:00.902
+    t =     0.00s     Set Up
+    t =     0.10s         Launch com.rushi.Bluepillar
+    t =     0.23s             Terminate com.rushi.Bluepillar:15823
+    t =     5.45s             Wait for app to idle
+    t =     6.66s     Tear Down
+
+
