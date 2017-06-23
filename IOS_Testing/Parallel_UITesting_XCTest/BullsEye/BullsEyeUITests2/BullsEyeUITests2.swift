@@ -33,33 +33,61 @@ class BullsEyeUITests2: XCTestCase {
         super.tearDown()
     }
     
-    func testGameStyleSwitch() {
+    func testGameStyleSwitch2() {
         
         //given
-        let slideButton = app2.segmentedControls.buttons["Slide"]
-        let typeButton = app2.segmentedControls.buttons["Type"]
-        let slideLabel = app2.staticTexts["Get as close as you can to: "]
-        let typeLabel = app2.staticTexts["Guess where the slider is: "]
+        let slideButton2 = app2.segmentedControls.buttons["Slide"]
+        let typeButton2 = app2.segmentedControls.buttons["Type"]
+        let slideLabel2 = app2.staticTexts["Get as close as you can to: "]
+        let typeLabel2 = app2.staticTexts["Guess where the slider is: "]
         
         // then
-        if slideButton.isSelected {
-            XCTAssertTrue(slideLabel.exists)
-            XCTAssertFalse(typeLabel.exists)
+        if slideButton2.isSelected {
+            XCTAssertTrue(slideLabel2.exists)
+            XCTAssertFalse(typeLabel2.exists)
             
-            typeButton.tap()
-            XCTAssertTrue(typeLabel.exists)
-            XCTAssertFalse(slideLabel.exists)
-        } else if typeButton.isSelected {
-            XCTAssertTrue(typeLabel.exists)
-            XCTAssertFalse(slideLabel.exists)
+            typeButton2.tap()
+            XCTAssertTrue(typeLabel2.exists)
+            XCTAssertFalse(slideLabel2.exists)
+        } else if typeButton2.isSelected {
+            XCTAssertTrue(typeLabel2.exists)
+            XCTAssertFalse(slideLabel2.exists)
             
-            slideButton.tap()
-            XCTAssertTrue(slideLabel.exists)
-            XCTAssertFalse(typeLabel.exists)
+            slideButton2.tap()
+            XCTAssertTrue(slideLabel2.exists)
+            XCTAssertFalse(typeLabel2.exists)
         }
         
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+     }
+    
+    func testFormSubmit2(){
+       
+        let countryElementsQuery = app2.otherElements.containing(.staticText, identifier:"Country:")
+        let textField = countryElementsQuery.children(matching: .textField).element(boundBy: 0)
+        textField.tap()
+        textField.typeText("united kingdom")
+        
+        let returnButton = app2/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
+        returnButton.tap()
+        
+        
+        let textField2 = countryElementsQuery.children(matching: .textField).element(boundBy: 1)
+        textField2.tap()
+        textField2.typeText("heema")
+        returnButton.tap()
+        
+        
+        let textField3 = countryElementsQuery.children(matching: .textField).element(boundBy: 2)
+        textField3.tap()
+        
+        let moreKey = app2/*@START_MENU_TOKEN@*/.keys["more"]/*[[".keyboards",".keys[\"more, numbers\"]",".keys[\"more\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
+        moreKey.tap()
+        textField3.typeText("9122122")
+        returnButton.tap()
+        
+        app2.buttons["Submit"].tap()
+        
+        
     }
     
 }

@@ -32,7 +32,21 @@ class ViewController: UIViewController {
   @IBOutlet weak var slider: UISlider!
   @IBOutlet weak var segmentedControl: UISegmentedControl!
   
-  let game = BullsEyeGame()
+    @IBOutlet weak var countryText: UITextField!
+    
+    @IBOutlet weak var nameText: UITextField!
+    
+    @IBOutlet weak var phoneText: UITextField!
+    
+    var activeTextField: UITextField?
+    
+    
+    @IBOutlet weak var confirmationText: UILabel!
+    
+    @IBAction func submitForm(_ sender: UIButton) {
+        
+    }
+    let game = BullsEyeGame()
   enum GameStyle: Int { case moveSlider, guessPosition }
   let gameStyleRange = 0..<2
   var gameStyle: GameStyle = .guessPosition
@@ -50,7 +64,26 @@ class ViewController: UIViewController {
       defaults.set(0, forKey: "gameStyle")
     }
     updateView()
+    setupTextFieldDelegates()
+    setupGestureRecognizers()
   }
+    
+    func setupTextFieldDelegates() {
+        countryText.delegate = self
+        nameText.delegate = self
+        phoneText.delegate = self
+    }
+    
+    func setupGestureRecognizers() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(onViewTap))
+        view.addGestureRecognizer(tap)
+    }
+    
+    func onViewTap() {
+        if let activeTextField = activeTextField {
+            activeTextField.resignFirstResponder()
+        }
+    }
   
   @IBAction func chooseGameStyle(_ sender: UISegmentedControl) {
     if gameStyleRange.contains(sender.selectedSegmentIndex) {
@@ -125,5 +158,16 @@ class ViewController: UIViewController {
     updateView()
   }
 
+}
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        activeTextField = textField
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }
 
