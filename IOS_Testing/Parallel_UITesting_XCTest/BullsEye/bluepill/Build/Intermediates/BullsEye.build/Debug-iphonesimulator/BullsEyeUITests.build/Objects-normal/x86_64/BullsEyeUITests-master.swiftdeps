@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "dd3cd70cbff96aaab340ba2a97dd7467"
-build_time: [550862514, 536057000]
-inputs:
-  "/Users/rubhatt/Documents/BullsEye/BullsEyeUITests/BullsEyeUITests.swift": [550861120, 0]
-  "/Users/rubhatt/Documents/BullsEye/BullsEyeUITests/BullsEyeUITests3.swift": [550862480, 0]
-  "/Users/rubhatt/Documents/BullsEye/BullsEyeUITests/BullsEyeUITests2.swift": [550862487, 0]

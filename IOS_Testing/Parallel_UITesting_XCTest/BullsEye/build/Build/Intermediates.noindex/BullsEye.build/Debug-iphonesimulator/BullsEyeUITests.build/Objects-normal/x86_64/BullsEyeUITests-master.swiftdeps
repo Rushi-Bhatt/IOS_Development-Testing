@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.52 clang-900.0.29)"
+options: "0c72cc28bcd98c49f731601782c0238d"
+build_time: [1500049476, 114866000]
+inputs:
+  "/Users/rubhatt/Documents/IOS_Development/IOS_Testing/Parallel_UITesting_XCTest/BullsEye/BullsEyeUITests/BullsEyeUITests.swift": [1498437640, 0]
+  "/Users/rubhatt/Documents/IOS_Development/IOS_Testing/Parallel_UITesting_XCTest/BullsEye/BullsEyeUITests/BulsEyeUITests1.swift": [1498437650, 0]

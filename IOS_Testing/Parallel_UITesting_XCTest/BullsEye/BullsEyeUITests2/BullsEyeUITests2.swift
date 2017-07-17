@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import BullsEye
+
 
 class BullsEyeUITests2: XCTestCase {
     

@@ -1,0 +1,473 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BullsEyeUITests3"
+provides-nominal:
+- "16BullsEyeUITests3AAC"
+provides-member:
+- ["16BullsEyeUITests3AAC", ""]
+provides-dynamic-lookup:
+- "app3"
+- "setUp"
+- "tearDown"
+- "testChina"
+- "testIndia"
+- "testStyle"
+- "testUK"
+- "testUS"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "BullsEyeUITests3"
+- !private "StringLiteralType"
+- !private "XCTAssertFalse"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+- "XCUIApplication"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["16BullsEyeUITests3AAC", "XCTAssertFalse"]
+- !private ["16BullsEyeUITests3AAC", "XCTAssertTrue"]
+- ["16BullsEyeUITests3AAC", "XCUIApplication"]
+- ["16BullsEyeUITests3AAC", "app3"]
+- !private ["16BullsEyeUITests3AAC", "continueAfterFailure"]
+- ["16BullsEyeUITests3AAC", "deinit"]
+- ["16BullsEyeUITests3AAC", "init"]
+- ["16BullsEyeUITests3AAC", "setUp"]
+- ["16BullsEyeUITests3AAC", "tearDown"]
+- ["16BullsEyeUITests3AAC", "testChina"]
+- ["16BullsEyeUITests3AAC", "testIndia"]
+- ["16BullsEyeUITests3AAC", "testStyle"]
+- ["16BullsEyeUITests3AAC", "testUK"]
+- ["16BullsEyeUITests3AAC", "testUS"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- !private ["s7CVarArgP", "XCUIApplication"]
+- !private ["s7CVarArgP", "app3"]
+- !private ["s7CVarArgP", "buttons"]
+- !private ["s7CVarArgP", "children"]
+- !private ["s7CVarArgP", "containing"]
+- !private ["s7CVarArgP", "continueAfterFailure"]
+- !private ["s7CVarArgP", "element"]
+- !private ["s7CVarArgP", "exists"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSelected"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "launch"]
+- !private ["s7CVarArgP", "otherElements"]
+- !private ["s7CVarArgP", "segmentedControls"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "staticTexts"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tap"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "typeText"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "XCUIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "app3"]
+- !private ["s28CustomDebugStringConvertibleP", "buttons"]
+- !private ["s28CustomDebugStringConvertibleP", "children"]
+- !private ["s28CustomDebugStringConvertibleP", "containing"]
+- !private ["s28CustomDebugStringConvertibleP", "continueAfterFailure"]
+- !private ["s28CustomDebugStringConvertibleP", "element"]
+- !private ["s28CustomDebugStringConvertibleP", "exists"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "launch"]
+- !private ["s28CustomDebugStringConvertibleP", "otherElements"]
+- !private ["s28CustomDebugStringConvertibleP", "segmentedControls"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "staticTexts"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tap"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "typeText"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- !private ["s23CustomStringConvertibleP", "XCUIApplication"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "app3"]
+- !private ["s23CustomStringConvertibleP", "buttons"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "containing"]
+- !private ["s23CustomStringConvertibleP", "continueAfterFailure"]
+- !private ["s23CustomStringConvertibleP", "element"]
+- !private ["s23CustomStringConvertibleP", "exists"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSelected"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "launch"]
+- !private ["s23CustomStringConvertibleP", "otherElements"]
+- !private ["s23CustomStringConvertibleP", "segmentedControls"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "staticTexts"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tap"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "typeText"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "XCTAssertFalse"]
+- !private ["s9EquatableP", "XCTAssertTrue"]
+- !private ["s9EquatableP", "XCUIApplication"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "app3"]
+- !private ["s9EquatableP", "buttons"]
+- !private ["s9EquatableP", "children"]
+- !private ["s9EquatableP", "containing"]
+- !private ["s9EquatableP", "continueAfterFailure"]
+- !private ["s9EquatableP", "element"]
+- !private ["s9EquatableP", "exists"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isSelected"]
+- !private ["s9EquatableP", "keys"]
+- !private ["s9EquatableP", "launch"]
+- !private ["s9EquatableP", "otherElements"]
+- !private ["s9EquatableP", "segmentedControls"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "staticText"]
+- !private ["s9EquatableP", "staticTexts"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tap"]
+- !private ["s9EquatableP", "tearDown"]
+- !private ["s9EquatableP", "textField"]
+- !private ["s9EquatableP", "typeText"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "XCTAssertFalse"]
+- !private ["s8HashableP", "XCTAssertTrue"]
+- !private ["s8HashableP", "XCUIApplication"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "app3"]
+- !private ["s8HashableP", "buttons"]
+- !private ["s8HashableP", "children"]
+- !private ["s8HashableP", "containing"]
+- !private ["s8HashableP", "continueAfterFailure"]
+- !private ["s8HashableP", "element"]
+- !private ["s8HashableP", "exists"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isSelected"]
+- !private ["s8HashableP", "keys"]
+- !private ["s8HashableP", "launch"]
+- !private ["s8HashableP", "otherElements"]
+- !private ["s8HashableP", "segmentedControls"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "staticText"]
+- !private ["s8HashableP", "staticTexts"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "tap"]
+- !private ["s8HashableP", "tearDown"]
+- !private ["s8HashableP", "textField"]
+- !private ["s8HashableP", "typeText"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- ["So8NSObjectC", "XCUIApplication"]
+- ["So8NSObjectC", "app3"]
+- !private ["So8NSObjectC", "buttons"]
+- !private ["So8NSObjectC", "children"]
+- !private ["So8NSObjectC", "containing"]
+- !private ["So8NSObjectC", "continueAfterFailure"]
+- !private ["So8NSObjectC", "element"]
+- !private ["So8NSObjectC", "exists"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSelected"]
+- !private ["So8NSObjectC", "keys"]
+- !private ["So8NSObjectC", "launch"]
+- !private ["So8NSObjectC", "otherElements"]
+- !private ["So8NSObjectC", "segmentedControls"]
+- ["So8NSObjectC", "setUp"]
+- !private ["So8NSObjectC", "staticTexts"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectC", "tap"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testChina"]
+- ["So8NSObjectC", "testIndia"]
+- ["So8NSObjectC", "testStyle"]
+- ["So8NSObjectC", "testUK"]
+- ["So8NSObjectC", "testUS"]
+- !private ["So8NSObjectC", "typeText"]
+- !private ["So16NSObjectProtocolP", "XCTAssertFalse"]
+- !private ["So16NSObjectProtocolP", "XCTAssertTrue"]
+- !private ["So16NSObjectProtocolP", "XCUIApplication"]
+- !private ["So16NSObjectProtocolP", "app3"]
+- !private ["So16NSObjectProtocolP", "buttons"]
+- !private ["So16NSObjectProtocolP", "children"]
+- !private ["So16NSObjectProtocolP", "containing"]
+- !private ["So16NSObjectProtocolP", "continueAfterFailure"]
+- !private ["So16NSObjectProtocolP", "element"]
+- !private ["So16NSObjectProtocolP", "exists"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isSelected"]
+- !private ["So16NSObjectProtocolP", "keys"]
+- !private ["So16NSObjectProtocolP", "launch"]
+- !private ["So16NSObjectProtocolP", "otherElements"]
+- !private ["So16NSObjectProtocolP", "segmentedControls"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "staticTexts"]
+- !private ["So16NSObjectProtocolP", "subscript"]
+- !private ["So16NSObjectProtocolP", "tap"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- !private ["So16NSObjectProtocolP", "typeText"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "staticText"]
+- !private ["s16RawRepresentableP", "textField"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So11XCUIElementC4TypeO", "staticText"]
+- !private ["So11XCUIElementC4TypeO", "textField"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- !private ["So11XCTActivityP", "XCUIApplication"]
+- !private ["So11XCTActivityP", "app3"]
+- !private ["So11XCTActivityP", "continueAfterFailure"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "tearDown"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- !private ["So17XCTWaiterDelegateP", "XCUIApplication"]
+- !private ["So17XCTWaiterDelegateP", "app3"]
+- !private ["So17XCTWaiterDelegateP", "continueAfterFailure"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", "XCUIApplication"]
+- ["So6XCTestC", "app3"]
+- !private ["So6XCTestC", "continueAfterFailure"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testChina"]
+- ["So6XCTestC", "testIndia"]
+- ["So6XCTestC", "testStyle"]
+- ["So6XCTestC", "testUK"]
+- ["So6XCTestC", "testUS"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", "XCUIApplication"]
+- ["So10XCTestCaseC", "app3"]
+- !private ["So10XCTestCaseC", "continueAfterFailure"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testChina"]
+- ["So10XCTestCaseC", "testIndia"]
+- ["So10XCTestCaseC", "testStyle"]
+- ["So10XCTestCaseC", "testUK"]
+- ["So10XCTestCaseC", "testUS"]
+- ["So10XCTestCaseC", ""]
+- !private ["So15XCUIApplicationC", "buttons"]
+- !private ["So15XCUIApplicationC", "init"]
+- !private ["So15XCUIApplicationC", "keys"]
+- !private ["So15XCUIApplicationC", "launch"]
+- !private ["So15XCUIApplicationC", "otherElements"]
+- !private ["So15XCUIApplicationC", "segmentedControls"]
+- !private ["So15XCUIApplicationC", "staticTexts"]
+- !private ["So11XCUIElementC", "buttons"]
+- !private ["So11XCUIElementC", "exists"]
+- !private ["So11XCUIElementC", "init"]
+- !private ["So11XCUIElementC", "isSelected"]
+- !private ["So11XCUIElementC", "keys"]
+- !private ["So11XCUIElementC", "launch"]
+- !private ["So11XCUIElementC", "otherElements"]
+- !private ["So11XCUIElementC", "segmentedControls"]
+- !private ["So11XCUIElementC", "staticTexts"]
+- !private ["So11XCUIElementC", "tap"]
+- !private ["So11XCUIElementC", "typeText"]
+- !private ["So21XCUIElementAttributesP", "buttons"]
+- !private ["So21XCUIElementAttributesP", "exists"]
+- !private ["So21XCUIElementAttributesP", "init"]
+- !private ["So21XCUIElementAttributesP", "isSelected"]
+- !private ["So21XCUIElementAttributesP", "keys"]
+- !private ["So21XCUIElementAttributesP", "launch"]
+- !private ["So21XCUIElementAttributesP", "otherElements"]
+- !private ["So21XCUIElementAttributesP", "segmentedControls"]
+- !private ["So21XCUIElementAttributesP", "staticTexts"]
+- !private ["So21XCUIElementAttributesP", "tap"]
+- !private ["So21XCUIElementAttributesP", "typeText"]
+- !private ["So16XCUIElementQueryC", "buttons"]
+- !private ["So16XCUIElementQueryC", "children"]
+- !private ["So16XCUIElementQueryC", "containing"]
+- !private ["So16XCUIElementQueryC", "element"]
+- !private ["So16XCUIElementQueryC", "subscript"]
+- !private ["So28XCUIElementTypeQueryProviderP", "buttons"]
+- !private ["So28XCUIElementTypeQueryProviderP", "children"]
+- !private ["So28XCUIElementTypeQueryProviderP", "containing"]
+- !private ["So28XCUIElementTypeQueryProviderP", "element"]
+- !private ["So28XCUIElementTypeQueryProviderP", "exists"]
+- !private ["So28XCUIElementTypeQueryProviderP", "init"]
+- !private ["So28XCUIElementTypeQueryProviderP", "isSelected"]
+- !private ["So28XCUIElementTypeQueryProviderP", "keys"]
+- !private ["So28XCUIElementTypeQueryProviderP", "launch"]
+- !private ["So28XCUIElementTypeQueryProviderP", "otherElements"]
+- !private ["So28XCUIElementTypeQueryProviderP", "segmentedControls"]
+- !private ["So28XCUIElementTypeQueryProviderP", "staticTexts"]
+- !private ["So28XCUIElementTypeQueryProviderP", "subscript"]
+- !private ["So28XCUIElementTypeQueryProviderP", "tap"]
+- !private ["So28XCUIElementTypeQueryProviderP", "typeText"]
+- !private ["So23XCUIScreenshotProvidingP", "buttons"]
+- !private ["So23XCUIScreenshotProvidingP", "exists"]
+- !private ["So23XCUIScreenshotProvidingP", "init"]
+- !private ["So23XCUIScreenshotProvidingP", "isSelected"]
+- !private ["So23XCUIScreenshotProvidingP", "keys"]
+- !private ["So23XCUIScreenshotProvidingP", "launch"]
+- !private ["So23XCUIScreenshotProvidingP", "otherElements"]
+- !private ["So23XCUIScreenshotProvidingP", "segmentedControls"]
+- !private ["So23XCUIScreenshotProvidingP", "staticTexts"]
+- !private ["So23XCUIScreenshotProvidingP", "tap"]
+- !private ["So23XCUIScreenshotProvidingP", "typeText"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCUIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "app3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buttons"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "children"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "containing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "continueAfterFailure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "element"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "exists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "launch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "otherElements"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "segmentedControls"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "staticTexts"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "typeText"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "16BullsEyeUITests3AAC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So11XCUIElementC4TypeO"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "So15XCUIApplicationC"
+- !private "So11XCUIElementC"
+- !private "So21XCUIElementAttributesP"
+- !private "So16XCUIElementQueryC"
+- !private "So28XCUIElementTypeQueryProviderP"
+- !private "So23XCUIScreenshotProvidingP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+interface-hash: "6935215abfaf2c4311683613e1b3abb9"

@@ -1,1 +1,70 @@
-xcodebuild clean -workspace project.xcworkspace -scheme BullsEye -sdk iphonesimulator -destination 'platform=iOS Simulator,id=D91426A7-108D-4BF2-B545-469257B62D43' test & xcodebuild clean -workspace project.xcworkspace -scheme BullsEye2 -sdk iphonesimulator -destination 'platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E' test
+xcodebuild clean -workspace project.xcworkspace -scheme BullsEye -sdk iphonesimulator -destination 'platform=iOS Simulator,id=D91426A7-108D-4BF2-B545-469257B62D43' test & xcodebuild clean -workspace project.xcworkspace -scheme BullsEye2 -sdk iphonesimulator -destination 'platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E' test &
+
+
+
+
+xcodebuild clean -workspace consumervenice.xcworkspace -scheme consumerveniceOnboardingUITests -sdk iphonesimulator -destination 'platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E' -destination-timeout 70000 test-without-building & xcodebuild clean -workspace consumervenice.xcworkspace -scheme consumerveniceOnboardingUITests1 -sdk iphonesimulator -destination 'platform=iOS Simulator,id=D91426A7-108D-4BF2-B545-469257B62D43' -destination-timeout 70000 test-without-building &
+
+
+sudo xcodebuild clean -workspace consumervenice.xcworkspace -scheme consumerveniceOnboardingUITests1 -destination 'platform=iOS Simulator,id=D91426A7-108D-4BF2-B545-469257B62D43' -destination-timeout 70000 test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO & xcodebuild clean -workspace consumervenice.xcworkspace -scheme consumerveniceOnboardingUITests2 -destination 'platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E' -destination-timeout 70000 build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO &
+
+
+xcodebuild clean -workspace consumervenice.xcworkspace -scheme consumerveniceOnboardingUITests1 -sdk iphonesimulator -destination 'platform=iOS Simulator,id=D91426A7-108D-4BF2-B545-469257B62D43' -destination-timeout 70000 test & xcodebuild clean -workspace consumervenice.xcworkspace -scheme consumerveniceOnboardingUITests2 -sdk iphonesimulator -destination 'platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E' -destination-timeout 70000 test &
+
+
+
+
+Scheme1
+
+xcodebuild build-for-testing -workspace "/Users/rubhatt/Documents/PayPalApp/consumer-venice-ios/consumervenice.xcworkspace" -scheme "consumerveniceOnboardingUITests1" -destination "platform=iOS Simulator,name=iPhone 7,OS=11.0" -derivedDataPath "build"
+
+xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITests1_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 7,OS=11.0" 
+
+
+Scheme0
+xcodebuild build-for-testing -workspace "/Users/rubhatt/Documents/PayPalApp/consumer-venice-ios/consumervenice.xcworkspace" -scheme "consumerveniceOnboardingUITests" -destination "platform=iOS Simulator,name=iPhone 7 Plus,OS=11.0" -derivedDataPath "newbuild"
+
+
+xcodebuild test-without-building -xctestrun "newbuild/Build/Products/consumerveniceOnboardingUITests_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 7 Plus,OS=11.0" 
+
+
+Final Command:
+xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITests_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 7 Plus,OS=11.0" & xcodebuild test-without-building -xctestrun "build1/Build/Products/consumerveniceOnboardingUITests1_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 7,OS=11.0" & xcodebuild test-without-building -xctestrun "build2/Build/Products/consumerveniceOnboardingUITests2_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 6,OS=11.0" &
+
+
+
+
+
+
+
+build:
+xcodebuild build-for-testing -workspace "/Users/rubhatt/Documents/PayPalApp/consumer-venice-ios/consumervenice.xcworkspace" -scheme "consumerveniceOnboardingUITestsAll" -destination "platform=iOS Simulator,name=iPhone 6,OS=11.0" -derivedDataPath "/Users/rubhatt/Documents/PayPalApp/consumer-venice-ios/build"
+
+
+test:
+xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E" '-only-testing:consumerveniceOnboardingUITests/consumerveniceOnboardingUITests_us' 
+
+xcodebuild test-without-building -xctestrun "build1/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,id=2D070A1C-9A4D-42F9-A5C2-7AD0644F6B87" '-only-testing:consumerveniceOnboardingUITests1/consumerveniceOnboardingUITests1_uk' 
+
+
+xcodebuild test-without-building -xctestrun "build2/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,id=48C9006F-F212-4F64-979A-F4D325D87B44" '-only-testing:consumerveniceOnboardingUITests2/consumerveniceOnboardingUITests2_pt'
+
+ 
+
+
+
+xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E" -destination "platform=iOS Simulator,id=2D070A1C-9A4D-42F9-A5C2-7AD0644F6B87" -destination "platform=iOS Simulator,id=48C9006F-F212-4F64-979A-F4D325D87B44" '-only-testing:consumerveniceOnboardingUITests/consumerveniceOnboardingUITests_us'
+
+xcodebuild -scheme "consumerveniceOnboardingUITestsAll" -destination "platform=iOS Simulator,id=9D3D565C-CC4C-4DFF-BFD1-1DC6386F895E" -destination "platform=iOS Simulator,id=2D070A1C-9A4D-42F9-A5C2-7AD0644F6B87" -destination "platform=iOS Simulator,id=48C9006F-F212-4F64-979A-F4D325D87B44" build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+
+
+////////
+
+xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 6,OS=11.0" '-only-testing:consumerveniceOnboardingUITests2/consumerveniceOnboardingUITests2_pt' & xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 7,OS=11.0" '-only-testing:consumerveniceOnboardingUITests/consumerveniceOnboardingUITests_us' & xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -destination "platform=iOS Simulator,name=iPhone 7 Plus,OS=11.0" '-only-testing:consumerveniceOnboardingUITests1/consumerveniceOnboardingUITests1_uk' &
+
+////
+xcodebuild test-without-building -xctestrun "build/Build/Products/consumerveniceOnboardingUITestsAll_iphonesimulator11.0-x86_64.xctestrun" -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6,OS=11.0" '-only-testing:consumerveniceOnboardingUITests1/consumerveniceOnboardingUITests1_uk/test_uk()' -destination "platform=iOS Simulator,name=iPhone 7,OS=11.0"  '-only-testing:consumerveniceOnboardingUITests1/consumerveniceOnboardingUITests1_uk/test_us()' 
+
+
+
