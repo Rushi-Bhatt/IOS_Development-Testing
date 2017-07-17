@@ -22,7 +22,7 @@ class BullsEyeUITests: XCTestCase {
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         app = XCUIApplication()
         app.launchArguments += ["-AppleLanguages", "(fr)"]
-        app.launchArguments += ["-AppleLocale", "fr_FR"]
+        app.launchArguments += ["-AppleLocale", "\"fr-FR\""]
         app.launchArguments += ProcessInfo().arguments
         app.launch()
 
@@ -71,7 +71,7 @@ class BullsEyeUITests: XCTestCase {
         textField.tap()
         textField.typeText("India")
         
-        let returnButton = app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
+        let returnButton = app.buttons["Return"]
         returnButton.tap()
         
         
@@ -84,7 +84,7 @@ class BullsEyeUITests: XCTestCase {
         let textField3 = countryElementsQuery.children(matching: .textField).element(boundBy: 2)
         textField3.tap()
         
-        let moreKey = app/*@START_MENU_TOKEN@*/.keys["more"]/*[[".keyboards",".keys[\"more, numbers\"]",".keys[\"more\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
+        let moreKey = app.keys["more"]
         moreKey.tap()
         textField3.typeText("9725025306")
         returnButton.tap()

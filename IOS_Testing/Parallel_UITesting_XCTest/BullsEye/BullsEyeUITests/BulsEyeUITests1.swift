@@ -21,7 +21,7 @@ class BulsEyeUITests1: XCTestCase {
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         app1 = XCUIApplication()
         app1.launchArguments += ["-AppleLanguages", "(fr)"]
-        app1.launchArguments += ["-AppleLocale", "fr_FR"]
+        app1.launchArguments += ["-AppleLocale", "\"fr-FR\""]
         app1.launchArguments += ProcessInfo().arguments
         app1.launch()
         
@@ -42,7 +42,7 @@ class BulsEyeUITests1: XCTestCase {
         textField.tap()
         textField.typeText("United states")
         
-        let returnButton = app1/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
+        let returnButton = app1.buttons["Return"]
         returnButton.tap()
         
         
@@ -61,8 +61,6 @@ class BulsEyeUITests1: XCTestCase {
         returnButton.tap()
         
         app1.buttons["Submit"].tap()
-        
-        
     }
     
     

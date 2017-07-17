@@ -54,7 +54,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
+      language = "de"
+      region = "FR"
       shouldUseLaunchSchemeArgsEnv = "NO">
       <Testables>
          <TestableReference
@@ -93,7 +94,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-AppleLanguages (fr)"
+            argument = "-AppleLanguages &quot;(de)&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
