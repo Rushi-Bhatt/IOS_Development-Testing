@@ -54,6 +54,8 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    let langStr = Locale.current.languageCode
+    
     let defaultGameStyle = defaults.integer(forKey: "gameStyle")
     print(defaultGameStyle)
     if gameStyleRange.contains(defaultGameStyle) {

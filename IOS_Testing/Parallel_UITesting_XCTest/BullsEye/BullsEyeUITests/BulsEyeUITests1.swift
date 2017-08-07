@@ -20,9 +20,8 @@ class BulsEyeUITests1: XCTestCase {
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         app1 = XCUIApplication()
-        app1.launchArguments += ["-AppleLanguages", "(fr)"]
-        app1.launchArguments += ["-AppleLocale", "\"fr-FR\""]
-        app1.launchArguments += ProcessInfo().arguments
+        app1.launchArguments += ["-AppleLanguages", "(ru)"]
+        app1.launchArguments += ["-AppleLocale", "ru-RU"]
         app1.launch()
         
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
